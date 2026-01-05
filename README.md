@@ -157,6 +157,7 @@ Acest proiect demonstrează:
 * integrare cu portofele multiple Duino-Coin;
 * salvarea datelor local pe SPIFFS sau SD card;
 * afișarea unui grafic istoric al balanței.
+* Mulțumesc și celor de la Duino-Coin pentru faptul că au pornit https://duinocoin.com/
 
 Autor: Sorinescu Adrian 
 
