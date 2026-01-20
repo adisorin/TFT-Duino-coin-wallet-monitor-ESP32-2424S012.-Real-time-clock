@@ -253,7 +253,7 @@ void loop() {
       lastSyncAttempt = currentMillis;
     }
 
-    if (currentMillis - lastApiCheck > 30000) {
+    if (currentMillis - lastApiCheck > 60000) {
 
       HTTPClient http;
       http.begin(apiUrl);
@@ -335,4 +335,5 @@ void loop() {
     Serial.println("Dimming ON (20%)");
   }
 }
+
 
