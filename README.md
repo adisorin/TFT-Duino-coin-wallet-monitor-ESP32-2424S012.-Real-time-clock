@@ -81,6 +81,8 @@ Dacă cererea eșuează, se afișează mesajul **“Eroare API !!!”** pe roșu
 ## De reținut
 Pentru monitorizare personală: O interogare la fiecare 30 - 60 de secunde ( ”if (currentMillis - lastApiCheck > 30000)” ) este considerată ideală. Aceasta oferă date actualizate fără a solicita inutil serverele proiectului.
 Frecvența maximă sigură: Evitați să faceți mai mult de o solicitare la 5-10 secunde. Solicitările mai dese pot fi interpretate ca un atac de tip spam sau bot. 
+Recomand setarea timpului de reîmprospătare al panoului de control al actualizărilor la 120.000 de milisecunde, adică 2 minute. NU deschideți mai multe dispozitive simultan cu aceeași aplicație, deoarece generează un conflict. Cloudfare: Prea multe solicitări pe minut.
+
 
 
 ### ⏰ 6. Ceas digital cu actualizare automată
